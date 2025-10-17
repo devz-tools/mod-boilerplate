@@ -1,0 +1,7 @@
+{
+    "devz-tools.modName": "MyMod",
+    "devz-tools.serverAddress": "127.0.0.1:2302",
+    "devz-tools.additionalMods": [
+        "1819514788"
+    ]
+}

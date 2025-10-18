@@ -1,7 +1,16 @@
 {
     "devz-tools.modName": "MyMod",
-    "devz-tools.serverAddress": "127.0.0.1:2302",
     "devz-tools.additionalMods": [
         "1819514788"
-    ]
+    ],
+    // Enforce Script language override - ensures .c and .cpp files use Enforce syntax
+    "files.associations": {
+        "*.c": "enforcescript",
+        "*.cpp": "enforcescript"
+    },
+    // Disable C/C++ extension for Enforce Script files
+    "C_Cpp.files.exclude": {
+        "**/*.c": true,
+        "**/*.cpp": true
+    }
 }
